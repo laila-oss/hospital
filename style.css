@@ -55,6 +55,10 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
+  min-height: 400px;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
 }
 
 .blog-card img {
@@ -76,16 +80,22 @@ body {
 
 .blog-card .btn {
   display: inline-block;
-  margin: 15px 0;
+  margin: 15px auto;
   padding: 10px 20px;
   color: #fff;
-  background: #007bff;
+  background: #001f4d;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition:all 0.3s ease-in-out ;
 }
 
 .blog-card .btn:hover {
-  background: #0056b3;
+  background: #003366;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Footer */
@@ -100,3 +110,4 @@ body {
 .footer p {
   margin: 0;
 }
+
